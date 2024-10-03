@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+
+}
+
+nav,
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 50px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+
+.logo {
+    /* width: 30px;
+    height: 30px; */
+    float: left;
+    margin-left: 0%;
+    border: 1px solid orange;
+    border-radius: 50px;
+    transition: 0.9s;
+
+}
+
+.logo:hover {
+    /* width: 30px;
+    height: 30px; */
+    float: left;
+    margin-left: 0%;
+    border: 2px solid rgb(0, 255, 115);
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.679);
+}
+
+.container {
+    clip-path: polygon(0 0, 100% 0, 100% 54%, 51% 71%, 0 54%);
+    height: 120vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://th.bing.com/th?id=ORMS.1786f00e3ea329ccbc9cd3314714202c&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1.25&p=0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-menu ul li {
+    background-color: rgba(0, 0, 0, 0.475);
+    display: flex;
+    display: inline;
+    color: white;
+    font-weight: bolder;
+    margin-right: 20px;
+    /* gap: 130px; */
+
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    font-size: x-large;
+    color: aliceblue;
+    /* display: inline; */
+
+}
+
+/*Text*/
+.text {
+    color: aliceblue;
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+.btn {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.btn-1 a {
+    color: white;
+    text-decoration: none;
+    padding: 5%;
+}
+
+.btn-1 {
+    color: wheat;
+    background-color: aqua;
+    height: 50px;
+    width: 300px;
+    margin: 10px;
+    background-color: tomato;
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
+
+.btn-2 {
+    color: wheat;
+    background-color: transparent;
+
+}
+
+/*CARD*/
+
+.lg {
+    height: 80px;
+    width: 80px;
+    margin: 20px auto;
+    border: 2px solid orange;
+    font-size: 50px;
+    line-height: 80px;
+    color: orange;
+}
+
+.crd {
+    text-align: center;
+    padding: 30px 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.left-arrow {
+    position: relative;
+    width: 40px;
+    height: 60px;
+    border: 2px solid;
+    background-color: red;
+}
+
+.slider-icon {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(239, 62, 62);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.left-slider-icon {
+    left: 0;
+    font-size: 20px;
+}
+
+.right-slider-icon {
+    font-size: 20px;
+    right: 0;
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.part-1{
+    background-color: black;
+    color: aliceblue;
+    padding-top:12%;
+    text-align: end;
+    padding-right: 2%;
+    position: relative;
+    width: 50%;
+}
+
+.part-1 h1{
+    border-right: 7px solid red;
+  
+
+}
+
+.part-1 h2{
+    margin: 20px;
+    color: rgb(109, 20, 20);
+    font-weight: 800;
+}
+/*ICON*/
+
+.fa-television{
+    position: absolute;
+    top: 255px;
+    /* left: 10px; */
+    margin-left: 7px;
+    background-color: aliceblue;
+    color: brown;
+    padding: 10px; 
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.fa-camera{
+    position: absolute;
+    top: 340px;
+    /* left: 10px; */
+    margin-left: 7px;
+    background-color: aliceblue;
+    color: brown;
+    padding: 10px; 
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.fa-tasks{
+    position: absolute;
+    top: 426px;
+    /* left: 10px; */
+    margin-left: 7px;
+    background-color: aliceblue;
+    color: brown;
+    padding: 10px; 
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.part-2{
+ width: 50%;
+    background: url('https://th.bing.com/th/id/R.dd75db14a6d9cb91951819f08e4756ea?rik=PYhO2AcTt6HG0g&riu=http%3a%2f%2favailableideas.com%2fwp-content%2fuploads%2f2016%2f02%2fDark-Curly-Pattern-iPhone-6-Wallpaper.jpg&ehk=pi8didV54AUC5oWApDBvNLmGq2oFShlqOKO4kV0uQug%3d&risl=&pid=ImgRaw&r=0');
+    height: 100vh;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../clip path/s.jpg'); */
+    /* background-image: url('../clip_path/s.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
